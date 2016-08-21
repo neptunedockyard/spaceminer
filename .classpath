@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="lwjgl_demo/res/|lwjgl_demo/cam_fps.java" kind="src" path="src"/>
+	<classpathentry kind="src" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="/home/atreyu/src/lwjgl-2.9.3/native/linux"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="includes/jogg-0.0.7.jar"/>
+	<classpathentry kind="lib" path="includes/jbullet.jar"/>
+	<classpathentry kind="lib" path="includes/jinput.jar"/>
+	<classpathentry kind="lib" path="includes/jorbis-0.0.15.jar"/>
+	<classpathentry kind="lib" path="includes/lwjgl_util.jar"/>
+	<classpathentry kind="lib" path="includes/lwjgl.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="SpaceMiner/includes/native"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="includes/slick.jar"/>
+	<classpathentry kind="lib" path="includes/vecmath.jar"/>
+	<classpathentry kind="lib" path="includes/jpct.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
